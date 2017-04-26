@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TrainingSessionIIT"
+             x:Class="TrainingSessionIIT.MainPage">
+    <ScrollView>
+        <StackLayout
+            Padding="20"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="Fill">
+            
+            
+            <Label Text="Welcome to our session" FontSize="Large"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"/>
+
+            <Button Text="How to specify view size" Clicked="ViewSize"></Button>
+            <Button Text="How to arrange views with StackLayout" Clicked="arrange"></Button>
+            <Button Text="How to apply Attached Properties"></Button>
+            <Button Text="How to arrange views within a Grid"></Button>
+            <Button Text="How to scroll a layout with ScrollView"></Button>
+            <Button Text="How to use GIT"></Button>
+            
+            
+            
+            
+            
+            </StackLayout>
+
+    </ScrollView>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+</ContentPage>

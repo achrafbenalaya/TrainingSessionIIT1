@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainingSessionIIT.ViewSize.ViewSize" BackgroundColor="CadetBlue">
+    <ScrollView>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+        <Label Text="Which One of this is the write answer ?"></Label>
+            <Image  Source="pic1.png" ></Image>
+            <Image  Source="pic2.png"></Image>
+            <Image  Source="pic3.png"></Image>
+            <Image  Source="pic4.png" x:Name="pic3"></Image>
+        
+        <Button Text="Check the wirte answer" Clicked="rightone" VerticalOptions="EndAndExpand"></Button>
+        <Button Text="Next" Clicked="Next" VerticalOptions="Center"></Button>
+        
+
+    </StackLayout>
+    </ScrollView>
+    
+</ContentPage>
+    
+    
+    

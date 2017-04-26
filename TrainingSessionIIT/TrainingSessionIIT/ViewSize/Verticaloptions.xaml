@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainingSessionIIT.ViewSize.Verticaloptions">
+    
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Check the true answer"></Label>
+            <Image Source="qcm2.png"></Image>
+            <Image Source="qcm22.png" x:Name="Image1"></Image>
+            <Image Source="qcm23.png" x:Name="Image" ></Image>
+            
+            
+        </StackLayout>
+        
+        
+        
+    </ScrollView>
+    
+    
+</ContentPage>
